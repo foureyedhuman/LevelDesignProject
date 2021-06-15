@@ -602,8 +602,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  InitialWeapon: {fileID: 1581594756673126376, guid: 9ef71d983287e2a4aa0a8841069507d3,
-    type: 3}
+  InitialWeapon: {fileID: 0}
   CanPickupWeapons: 1
   WeaponAttachment: {fileID: 1045624886806204120}
   ForceWeaponScaleResetOnEquip: 0
@@ -696,9 +695,11 @@ MonoBehaviour:
   AutoEquipWeaponOnCharacterSwitch: 0
   WeaponRotationMode: 0
   CharacterHandleWeapon: {fileID: 0}
-  AutoAddItemsMainInventory: []
+  AutoAddItemsMainInventory:
+  - Item: {fileID: 11400000, guid: 00b7130124136fc4e8feae6de49f9480, type: 2}
+    Quantity: 1
   AutoAddItemsHotbar: []
-  AutoEquipWeapon: {fileID: 0}
+  AutoEquipWeapon: {fileID: 11400000, guid: 104cb3b99064b944b924c543ed6111d4, type: 2}
 --- !u!114 &114501317147000200
 MonoBehaviour:
   m_ObjectHideFlags: 0
