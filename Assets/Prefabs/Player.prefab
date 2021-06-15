@@ -75,7 +75,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.074003816, y: 0.22264203}
+  m_Offset: {x: 0, y: 0.22264203}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -602,7 +602,8 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  InitialWeapon: {fileID: 0}
+  InitialWeapon: {fileID: 1581594756673126376, guid: 9ef71d983287e2a4aa0a8841069507d3,
+    type: 3}
   CanPickupWeapons: 1
   WeaponAttachment: {fileID: 1045624886806204120}
   ForceWeaponScaleResetOnEquip: 0
