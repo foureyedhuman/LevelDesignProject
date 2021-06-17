@@ -36,6 +36,7 @@ GameObject:
   - component: {fileID: 114501317147000200}
   - component: {fileID: 114409196396544568}
   - component: {fileID: 1583276893178277904}
+  - component: {fileID: -6383643899839390148}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -930,6 +931,22 @@ MonoBehaviour:
   ResetAngleInTheAir: 1
   RotateWeapon: 1
   RaycastLength: 1
+--- !u!114 &-6383643899839390148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b00d550feb20a84eb4d8e1aa32af305, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputCode: 113
+  cooldown: 1
+  teleportBulletPrefab: {fileID: 8956388448847063914, guid: c874edfc0f1e46b44aa5a7deed575099,
+    type: 3}
 --- !u!1 &159142
 GameObject:
   m_ObjectHideFlags: 0
