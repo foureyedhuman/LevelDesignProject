@@ -395,8 +395,8 @@ MonoBehaviour:
   JumpRestrictions: 2
   ResetCameraOffsetOnJump: 0
   CanJumpDownOneWayPlatforms: 1
-  JumpIsProportionalToThePressTime: 1
-  JumpMinimumAirTime: 0.1
+  JumpIsProportionalToThePressTime: 0
+  JumpMinimumAirTime: 0.5
   JumpReleaseForceFactor: 2
   CoyoteTime: 0
   InputBufferDuration: 0
@@ -421,7 +421,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  RunSpeed: 9
+  RunSpeed: 12
   ReadInput: 1
 --- !u!114 &11463706
 MonoBehaviour:
@@ -720,7 +720,7 @@ MonoBehaviour:
   BlockingConditionStates: 
   InWater: 0
   SwimHeight: 3.025
-  SwimAnimationDuration: 0.8
+  SwimAnimationDuration: 0.2
   WaterEntryEffect: {fileID: 143758, guid: 14f27396ac5b4d84cb17d403de44b8a1, type: 3}
   WaterExitEffect: {fileID: 143758, guid: 14f27396ac5b4d84cb17d403de44b8a1, type: 3}
   WaterExitForce: {x: 0, y: 12}
