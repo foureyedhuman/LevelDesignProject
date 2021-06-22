@@ -7,6 +7,7 @@ public class PlayerTeleportBullet : MonoBehaviour
     [SerializeField] float cooldown = 1;
     [SerializeField] GameObject teleportBulletPrefab;
     Character player;
+    private CorgiController corgiController;
     float currentCooldown;
     private TeleportBulletController teleportBulletController;
 
@@ -17,6 +18,7 @@ public class PlayerTeleportBullet : MonoBehaviour
             Debug.LogError("Missing teleport bullet prefab.");
         }
         player = GetComponent<Character>();
+        corgiController = GetComponent<CorgiController>();
     }
 
     private void Update()
@@ -36,16 +38,12 @@ public class PlayerTeleportBullet : MonoBehaviour
                 teleportBulletController = currentBullet.GetComponent<TeleportBulletController>();
                 teleportBulletController.Player = this;
                 teleportBulletController.LifeTimer = cooldown;
-                var direction = Vector3.zero;
 
-                direction.y = Input.GetAxisRaw("Player1_Vertical");
+                var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                mousePos.z = transform.position.z;
+                var direction = mousePos - transform.position;
 
-                if (direction.y == 0)
-                {
-                    direction.x = player.IsFacingRight ? 1 : -1;
-                }
-
-                projectile.SetDirection(direction, Quaternion.identity);
+                projectile.SetDirection(direction.normalized, Quaternion.identity);
             }
             else if (teleportBulletController != null)
             {
@@ -59,5 +57,6 @@ public class PlayerTeleportBullet : MonoBehaviour
     {
         transform.position = pos;
         teleportBulletController = null;
+        corgiController.SetForce(Vector2.zero);
     }
 }
