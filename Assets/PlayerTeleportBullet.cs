@@ -10,6 +10,12 @@ public class PlayerTeleportBullet : MonoBehaviour
     private CorgiController corgiController;
     float currentCooldown;
     private TeleportBulletController teleportBulletController;
+    public static bool isAbilityUnlocked;
+
+    internal void GiveAbility()
+    {
+        isAbilityUnlocked = true;
+    }
 
     private void Awake()
     {
@@ -28,7 +34,7 @@ public class PlayerTeleportBullet : MonoBehaviour
             currentCooldown -= Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(inputCode))
+        if (Input.GetKeyDown(inputCode) && isAbilityUnlocked)
         {
             if (teleportBulletController == null && currentCooldown <= 0)
             {

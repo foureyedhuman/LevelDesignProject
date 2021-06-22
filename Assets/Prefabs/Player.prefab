@@ -943,7 +943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b00d550feb20a84eb4d8e1aa32af305, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputCode: 113
+  inputCode: 323
   cooldown: 1
   teleportBulletPrefab: {fileID: 8956388448847063914, guid: c874edfc0f1e46b44aa5a7deed575099,
     type: 3}
