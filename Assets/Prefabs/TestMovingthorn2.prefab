@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.95686275}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -113,13 +113,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4989888154039608391}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: -0.02, y: -1.6, z: 0}
-  m_LocalScale: {x: 4.20633, y: 2.225, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9999877, w: -0.0049579367}
+  m_LocalPosition: {x: 0, y: -1.84, z: 0}
+  m_LocalScale: {x: 2.603262, y: 1.3770342, z: 0.6188918}
   m_Children: []
   m_Father: {fileID: 1364099976438545918}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.568}
 --- !u!212 &4253689137310908225
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -161,8 +161,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3625043607559282579, guid: 19fb86013d8c24d6cb8410c0aadf30fa,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: f35314aa53e44b54fbe1a843026ddb37, type: 3}
   m_Color: {r: 0.06848522, g: 0.5377358, b: 0.07369908, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -189,9 +188,9 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.50000006, y: 0}
-  - {x: 0.006402664, y: -0.24250492}
-  - {x: 0.50000006, y: 0}
+  - {x: -0.26677334, y: 0.051677793}
+  - {x: -0.024818301, y: -1.3496908}
+  - {x: 0.23752502, y: -0.007801017}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -212,9 +211,9 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.50000006, y: 0}
-  - {x: -0.008546794, y: 0.25442612}
-  - {x: 0.50000006, y: 0}
+  - {x: -0.26270667, y: 0.019573394}
+  - {x: 0.014440337, y: 1.331234}
+  - {x: 0.22732916, y: -0.02668937}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
