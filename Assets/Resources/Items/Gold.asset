@@ -25,7 +25,7 @@ MonoBehaviour:
   ItemName: Gold
   ShortDescription: A valuable piece of money
   Description: A gold is a rare piece which can be sold for a lot of money
-  Icon: {fileID: 21300004, guid: a1fbd1aaf76d0b94e88551b7c406ee2c, type: 3}
+  Icon: {fileID: 21300000, guid: 5f07233e9607b22408308fbc59b7ce88, type: 3}
   Prefab: {fileID: 173960, guid: 974d6b13cbf76794d9e2dbfc2026f9cb, type: 3}
   DropProperties:
     Shape: 0
