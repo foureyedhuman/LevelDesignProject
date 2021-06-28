@@ -22,7 +22,7 @@ public class CameraZoomTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Camera.main.orthographicSize = lensSize;
+            Camera.main.GetComponent<MoreMountains.CorgiEngine.CameraController>().MinimumZoom = lensSize;
         }
     }
 }
