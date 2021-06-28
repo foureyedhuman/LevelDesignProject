@@ -34,7 +34,8 @@ public class TeleportBulletController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Platforms"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Platforms")
+            || collision.gameObject.layer == LayerMask.NameToLayer("MovingPlatforms"))
         {
             TeleportPlayer();
         }
