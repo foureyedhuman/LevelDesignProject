@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 11479924}
   - component: {fileID: 114173583049443976}
   m_Layer: 13
-  m_Name: MUSHROOM
+  m_Name: MUSHROOMenemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -275,7 +275,7 @@ MonoBehaviour:
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 512
-  DamageCaused: 10
+  DamageCaused: 1
   DamageCausedKnockbackType: 1
   DamageCausedKnockbackDirection: 0
   DamageCausedKnockbackForce: {x: 25, y: 2}
