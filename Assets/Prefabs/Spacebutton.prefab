@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 114235008137252218}
   - component: {fileID: 95630093885327862}
   m_Layer: 0
-  m_Name: ButtonPrompt
+  m_Name: Spacebutton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
