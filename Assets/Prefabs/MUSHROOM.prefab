@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 11479924}
   - component: {fileID: 114173583049443976}
   m_Layer: 13
-  m_Name: blueRobot
+  m_Name: MUSHROOM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
