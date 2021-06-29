@@ -16,16 +16,11 @@ GameObject:
   - component: {fileID: 11485350}
   - component: {fileID: 11455042}
   - component: {fileID: 11449144}
-  - component: {fileID: 11462046}
-  - component: {fileID: 11468356}
   - component: {fileID: 11421110}
   - component: {fileID: 11431242}
   - component: {fileID: 11473620}
-  - component: {fileID: 11463706}
   - component: {fileID: 11453748}
   - component: {fileID: 11431628}
-  - component: {fileID: 11475426}
-  - component: {fileID: 11433500}
   - component: {fileID: 11444118}
   - component: {fileID: 11455680}
   - component: {fileID: 114000012565017190}
@@ -33,7 +28,6 @@ GameObject:
   - component: {fileID: 114000011047386926}
   - component: {fileID: 114000011356687900}
   - component: {fileID: 114441868286620766}
-  - component: {fileID: 114501317147000200}
   - component: {fileID: 114409196396544568}
   - component: {fileID: 1583276893178277904}
   - component: {fileID: -6383643899839390148}
@@ -299,60 +293,6 @@ MonoBehaviour:
   InATunnel: 0
   MoveCameraTarget: 1
   CameraTargetOffset: {x: 0, y: -3, z: 0}
---- !u!114 &11462046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2bb48ea7e7fc4c0fa43dce17235f4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  DashDistance: 5
-  DashForce: 40
-  ResetForcesOnExit: 0
-  Aim:
-    AimControl: 2
-    RotationMode: 0
-    MinimumAngle: -180
-    MaximumAngle: 180
-    CurrentAngle: 0
-  MinimumInputThreshold: 0.1
-  FlipCharacterIfNeeded: 1
-  AutoCorrectTrajectory: 1
-  DashCooldown: 1
-  LimitedDashes: 0
-  SuccessiveDashAmount: 1
-  SuccessiveDashesLeft: 1
-  SuccessiveDashResetMethod: 0
-  SuccessiveDashResetDuration: 2
---- !u!114 &11468356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 157b891c059034cea94ae0c9e235df50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  ShakeParameters: {x: 1.5, y: 0.5, z: 1}
-  DiveAcceleration: 2
 --- !u!114 &11421110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,33 +362,6 @@ MonoBehaviour:
   BlockingConditionStates: 
   RunSpeed: 12
   ReadInput: 1
---- !u!114 &11463706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d37391d2147a467db78bf732ae24daa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  MovingPlatformsJumpCollisionOffDuration: 0.05
-  ParticleEmitter: {fileID: 0}
-  JetpackForce: 2.5
-  JetpackUnlimited: 0
-  JetpackFuelDuration: 5
-  JetpackRefuelCooldown: 1
-  RefuelSpeed: 0.5
-  MinimumFuelRequirement: 0.2
-  JetpackRefueledSfx: {fileID: 0}
-  JetpackFuelDurationLeft: 0
 --- !u!114 &11453748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -487,48 +400,6 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BufferDurationAfterGrip: 0.3
---- !u!114 &11475426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51d7707613113491a9d85f1caab5837b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  WallClingingSlowFactor: 0.6
-  RaycastVerticalOffset: 0
-  WallClingingTolerance: 0.3
-  InputIndependent: 0
---- !u!114 &11433500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eeabffc5d6e694a8287c891288b0a4be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  WallJumpForce: {x: 10, y: 4}
-  ShouldReduceNumberOfJumpsLeft: 1
-  ForceMode: 0
-  ForceFlipTowardsDirection: 0
 --- !u!114 &11444118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -695,34 +566,9 @@ MonoBehaviour:
   AutoEquipWeaponOnCharacterSwitch: 0
   WeaponRotationMode: 0
   CharacterHandleWeapon: {fileID: 0}
-  AutoAddItemsMainInventory:
-  - Item: {fileID: 11400000, guid: 00b7130124136fc4e8feae6de49f9480, type: 2}
-    Quantity: 1
+  AutoAddItemsMainInventory: []
   AutoAddItemsHotbar: []
   AutoEquipWeapon: {fileID: 11400000, guid: 104cb3b99064b944b924c543ed6111d4, type: 2}
---- !u!114 &114501317147000200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f6acc45a765d864ba3d69b6c84471f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  InWater: 0
-  SwimHeight: 3.025
-  SwimAnimationDuration: 0.2
-  WaterEntryEffect: {fileID: 143758, guid: 14f27396ac5b4d84cb17d403de44b8a1, type: 3}
-  WaterExitEffect: {fileID: 143758, guid: 14f27396ac5b4d84cb17d403de44b8a1, type: 3}
-  WaterExitForce: {x: 0, y: 12}
 --- !u!114 &114409196396544568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1226,6 +1072,7 @@ GameObject:
   - component: {fileID: 253718837939508050}
   - component: {fileID: 8723460317261040310}
   - component: {fileID: 2791636335421967090}
+  - component: {fileID: 6814317599944809803}
   m_Layer: 0
   m_Name: DamageFeedbacks
   m_TagString: Untagged
@@ -1262,6 +1109,7 @@ MonoBehaviour:
   Feedbacks:
   - {fileID: 8723460317261040310}
   - {fileID: 2791636335421967090}
+  - {fileID: 6814317599944809803}
   InitializationMode: 2
   SafeMode: 3
   Direction: 0
@@ -1325,7 +1173,7 @@ MonoBehaviour:
     Quantized: 0
     TargetBPM: 120
   DebugActive: 0
-  Sfx: {fileID: 8300000, guid: fc6a8ed8f767ee7449dc2f51593060a7, type: 3}
+  Sfx: {fileID: 8300000, guid: 9b1131f4d945be54f8abaf444a7e7d09, type: 3}
   RandomSfx: []
   TestButton: 0
   TestStopButton: 0
@@ -1378,6 +1226,50 @@ MonoBehaviour:
   TargetWorldPosition: {x: 0, y: 0, z: 0}
   Offset: {x: 0, y: 0, z: 0}
   NestParticles: 0
+--- !u!114 &6814317599944809803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549343845129470809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2ce51367856bd49b72678cc4263225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 0
+  Label: Sound
+  Chance: 100
+  Timing:
+    TimescaleMode: 0
+    InitialDelay: 0
+    CooldownDuration: 0
+    NumberOfRepeats: 0
+    RepeatForever: 0
+    DelayBetweenRepeats: 1
+    MMFeedbacksDirectionCondition: 0
+    PlayDirection: 0
+    ConstantIntensity: 0
+    UseIntensityInterval: 0
+    IntensityIntervalMin: 0
+    IntensityIntervalMax: 0
+    Sequence: {fileID: 0}
+    TrackID: 0
+    Quantized: 0
+    TargetBPM: 120
+  DebugActive: 0
+  Sfx: {fileID: 0}
+  RandomSfx: []
+  TestButton: 0
+  TestStopButton: 0
+  PlayMethod: 0
+  PoolSize: 10
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 1
+  MaxPitch: 1
+  SfxAudioMixerGroup: {fileID: 0}
 --- !u!1 &8200602243586886156
 GameObject:
   m_ObjectHideFlags: 0
